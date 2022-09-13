@@ -1,0 +1,46 @@
+body {
+  /*background-color: purple;*/
+  text-align: center;
+  background-image:  url('../img/SpaceBoy.jpg');
+}
+
+h1 {
+   color: greenyellow;
+  text-align: center;
+}
+
+h2 {
+  color: yellowgreen;
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  
+  font-size: 25px;
+  color:  white;
+  text-align: center;
+}
+
+#p1 {
+  
+  font-size: 25px;
+  color:  white;
+  text-align: center;
+}
+
+/* indentificaor diferente*/
+#d1 { 
+  
+  text-align: center;
+  color: whitesmoke;
+}
+
+#p3 {
+  
+}
+
+a {
+  font-size:  30px;
+  color: greenyellow;
+}
