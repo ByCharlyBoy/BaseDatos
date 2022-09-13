@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost"; 
 $username = "root"; 
-$password = "secret"; 
+$password = ""; 
 $dbname = "miBase"; 
 
 $idplayer = $_POST["IdPlayer"]; 
@@ -29,15 +29,7 @@ if ($conn->query($sql) === TRUE)
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
-$sql = "INSERT INTO Player(IdPlayer, Nombre, Edad, Score) VALUES (2, 'Car', 15, 25)";
 
-
-if ($conn->query($sql) === TRUE) 
-{
-  echo "New record created successfully";
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
 
 $conn->close();
 ?>
