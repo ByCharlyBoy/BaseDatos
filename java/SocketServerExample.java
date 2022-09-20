@@ -48,11 +48,12 @@ public class SocketServerExample
 				if (responde.equalsIgnoreCase("Si")){
 					oos.writeObject("Elige el objeto: ");
 					responde = (String) ois.readObject();
-					int serverEligemundo = random.nextInt(3) + 1;
+					int serverEligeMundo = random.nextInt(3) + 1;
 
-					//switch(){
+					//switch(serverEligeMundo){
 					//case 1:
-					// if()
+					//if(responde.equalsIgnoreCase("Roca")); 
+					//oos.writeObject("Elige este:" + responde + "algo");
 					//break; 
 					//}
 					
