@@ -13,8 +13,8 @@ import java.util.Scanner;
 */
 public class SocketClientExample 
 {
-
-	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException, InterruptedException{
+	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException, InterruptedException
+	{
 		//get the localhost IP address, if server is running on some other IP, you need to use that
 		//InetAddress host = InetAddress.getLocalHost();
 		InetAddress host = InetAddress.getByName("127.0.8.0");
@@ -47,5 +47,29 @@ public class SocketClientExample
 		oos.close();
 		Thread.sleep(100);
 		}
-	}
+	} 
 }
+
+
+
+
+	/*public static void main(String[] args) 
+	{
+		Operacion o = new Operacion();
+		int j1, j2; 
+		//int g1 = 0, g2 = 0
+		Scanner read = new Scanner (System.in);
+		do {
+			System.out.println("1=Piedra\n2=Papel\n3=Tijeras");
+			System.out.println("Jugador 1: \nIngresa tu jugada:");
+			j1 = read.nextInt(); 
+
+			System.out.println("\n\n\n\n\n\n\n\n\n1=Piedra\n2=Papel\n3=Tijeras");
+			System.out.println("Jugador 2: \nIngresa tu jugada:");
+			j2 = read.nextInt(); 
+
+			System.out.println("\n\n\n\n\n\n");
+
+			o.Jugar(j1, j2); 
+		} while (o.getG1() <= 3 && o.getG2() <=3); 
+	}*/	
